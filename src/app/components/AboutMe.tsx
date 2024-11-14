@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 
 const AboutMe = () => {
-  const aboutMeRef = useRef(null);
+  const aboutMeRef = useRef<null | HTMLDivElement>(null);
 
   useEffect(() => {
     if (aboutMeRef.current) {
