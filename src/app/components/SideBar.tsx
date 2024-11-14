@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import { Section } from "../page";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 // Sidebar Component
 type SidebarProps = {
@@ -17,7 +18,7 @@ export default function Sidebar({ sections, isMenuOpen, setIsMenuOpen, activeSec
         className={`fixed top-0 left-0 z-40 w-64 h-full bg-gradient-to-r from-blue to-pink-50 text-gray-800 shadow-lg transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 md:translate-x-0 md:sticky md:top-0 md:h-screen md:w-64 md:p-8 p-4`}
       >
         <div className="flex flex-col items-center mb-8">
-          <img
+          <Image
             src="https://media.licdn.com/dms/image/v2/D5635AQGhqFaYq6EpxA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1727585219165?e=1732147200&v=beta&t=auGdO5SgzyrYGpHO_kY4KNBwyh3FSTKYkksEFR54mds"
             alt="Your Headshot"
             className="w-24 h-24 rounded-full border-2 border-gray-300 mb-4"

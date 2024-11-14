@@ -20,7 +20,7 @@ const AboutMe = () => {
       transition={{ duration: 1, ease: 'easeOut' }}
     >
       <h2 className="text-4xl font-extrabold text-center mb-8 text-800">
-        Hi, I'm Kalyani
+        Hi, I&apos;m Kalyani
       </h2>
       <div className="aboutme-container max-w-4xl mx-auto  shadow-lg p-8 rounded-md">
         <p className="text-gray-800 text-lg mb-6">
@@ -30,7 +30,7 @@ const AboutMe = () => {
           Currently, as a graduate student in data analytics, I am enhancing my skills in data engineering, cloud computing, and data visualization. I love working with tools like AWS, Python, Power BI, and Tableau to transform complex datasets into meaningful, actionable insights. My recent projects include building cloud-based analytics systems, conducting sentiment analysis, and visualizing data trends to enable better decision-making.
         </p>
         <p className="text-gray-800 text-lg">
-          I am deeply passionate about leveraging technology to solve real-world problems and excited to work on data-driven projects that create a positive impact. When I'm not coding or analyzing data, you can find me exploring nature, practicing mindfulness, or experimenting with personal projects that combine creativity and technology.
+          I am deeply passionate about leveraging technology to solve real-world problems and excited to work on data-driven projects that create a positive impact. When I&apos;m not coding or analyzing data, you can find me exploring nature, practicing mindfulness, or experimenting with personal projects that combine creativity and technology.
         </p>
       </div>
     </motion.section>
